@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+.nav-bar{
+    margin: .2rem 0;
+}
+
+.left{
+    float:left;
+}
+
+
+.right{
+    float:right;
+    display: flex;
+    align-items: center;
+    margin-right: 2.5rem;
+    
+}
+.right img{
+    border-radius: 50%;
+    width: 2.5rem;
+    height: auto;
+}
+.right i {
+    margin: 0 15px;
+}
