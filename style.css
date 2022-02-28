@@ -20,13 +20,13 @@
 .left i{
     margin: 0 5px;
 }
-.left span{
-    font-weight: bold;
-    font-size: 20px;
-    cursor: pointer;
+.left a{
+    font-weight: 600;
+    font-size: 22px;
     margin-left: 15px;
+    color:#000;
+    text-decoration: none;
 }
-
 
 .right{
     float:right;
@@ -66,4 +66,46 @@ input{
 .fa-microphone{
     padding-left: 20px;
     
+}
+
+.main{
+    margin: 40px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-video{
+    display: flex;
+    justify-content: space-between;
+
+}
+.video-title{
+    margin: 30px 0 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.stats span{
+    color:#797878;
+    margin: 10px;
+}
+.tools a{
+    margin: 10px;
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+.subscription{
+    display: flex;
+    justify-content: space-between;
+}
+.subscription{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.avatar img{
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
 }
