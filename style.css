@@ -73,6 +73,9 @@ input{
     display: flex;
     justify-content: space-between;
 }
+.video{
+    width: 60%;
+}
 .bottom-video{
     display: flex;
     justify-content: space-between;
@@ -183,4 +186,37 @@ hr{
     background-color: #d4d4d4b3;
     padding: .5em;
     cursor: default;
+}
+.people-com{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    align-items: center;
+}
+.people-com img{
+    width: 50px;
+}
+.content{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.content a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+}
+.content .name{
+    margin-bottom: 10px;
+}
+.years{
+    font-size: small;
+    opacity: .5;
+}
+.syng{
+    padding-top: 20px;
+}
+.syng small{
+    margin: 10px;
 }
