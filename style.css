@@ -79,7 +79,7 @@ input{
 
 }
 .video-title{
-    margin: 30px 0 20px;
+    margin: 20px 0 10px;
     font-size: 20px;
     font-weight: 400;
 }
@@ -93,11 +93,11 @@ input{
     color: inherit;
     font-weight: bold;
 }
-
-.subscription{
-    display: flex;
-    justify-content: space-between;
+hr{
+    margin-top: 30px;
+    opacity: .5;
 }
+
 .subscription{
     margin-top: 20px;
     display: flex;
@@ -105,7 +105,27 @@ input{
     justify-content: space-between;
 }
 .avatar img{
-    width: 100px;
+    width: 60px;
     height: auto;
     border-radius: 50%;
+}
+
+.avatar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.owner{
+    display: flex;
+    flex-direction: column; 
+    margin-left: 15px;
+}
+
+.name{
+    font-weight: bold;
+    margin-top: -5px;
+}
+.subscribers{
+    margin-top: 10px;
+    opacity: .7;
 }
