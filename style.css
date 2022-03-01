@@ -129,3 +129,43 @@ hr{
     margin-top: 10px;
     opacity: .7;
 }
+.sub{
+    background-color: red;
+    color: #fff;
+    padding: .6em;
+    cursor: pointer;
+}
+.label{
+    display: block;
+    margin: 30px 75px;
+}
+.label a{
+    text-decoration: none;
+}
+.show-more{
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 75px;
+    cursor: pointer; 
+}
+.commentaires{
+    margin: 20px 0;
+    font-weight: 500;
+}
+.commentaires span{
+    margin: 20px;
+}
+.mycomment{
+    display: flex;
+    flex-direction: row;
+}
+.mycomment img{
+    border-radius: 50%;
+    width: 3rem;
+    height: auto;
+}
+.mycomment span{
+    opacity: .5;
+    margin: 10px ;
+    position: relative;
+}
