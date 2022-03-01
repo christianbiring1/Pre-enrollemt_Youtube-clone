@@ -75,7 +75,7 @@ input{
 }
 .video{
     width: 60%;
-    margin-left: -50px;
+    /* margin-left: -50px; */
 }
 .bottom-video{
     display: flex;
@@ -224,7 +224,7 @@ hr{
 
 
 .play-list{
-    margin-left: 0;
+    margin-left: 30px;
     /* background: #000; */
 }
 .head span{
@@ -240,4 +240,35 @@ hr{
     background-color: #000;
     color: #fff;
     border: 1px solid #000;
+}
+.suggestions{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.musics{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    
+}
+.artist{
+    padding: 10px 0 ;
+    opacity: .75;
+    font-size: 14px;
+}
+.views{
+    opacity: .75;
+    display: flex;
+    flex-direction: row;
+}
+.views small{
+    font-size: 14px;
+}
+.resleased-year{
+    margin-left: 8px;
 }
