@@ -71,10 +71,11 @@ input{
 .main{
     margin: 40px 25px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .video{
     width: 60%;
+    margin-left: -110px;
 }
 .bottom-video{
     display: flex;
@@ -220,3 +221,4 @@ hr{
 .syng small{
     margin: 10px;
 }
+
