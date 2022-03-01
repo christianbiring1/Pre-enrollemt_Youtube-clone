@@ -75,7 +75,7 @@ input{
 }
 .video{
     width: 60%;
-    margin-left: -110px;
+    margin-left: -50px;
 }
 .bottom-video{
     display: flex;
@@ -222,3 +222,22 @@ hr{
     margin: 10px;
 }
 
+
+.play-list{
+    margin-left: 0;
+    /* background: #000; */
+}
+.head span{
+    margin: 10px;
+    font-size: 15px;
+    border: 1px solid #beb9b9;
+    border-radius: 20px;
+    padding: .5em .81em;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+#active{
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+}
