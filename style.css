@@ -169,3 +169,18 @@ hr{
     margin: 10px ;
     position: relative;
 }
+
+.comment-option{
+    float: right;
+}
+.comment-option span{
+    margin: 15px;
+}
+.cancel-comm{
+    cursor: pointer;
+}
+.comm-val{
+    background-color: #d4d4d4b3;
+    padding: .5em;
+    cursor: default;
+}
