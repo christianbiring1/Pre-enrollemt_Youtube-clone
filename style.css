@@ -34,6 +34,7 @@
     align-items: center;
     margin-right: 2.5rem;
     margin-top: -35px;
+    width: 10%;
     
 }
 .right img{
@@ -271,4 +272,61 @@ hr{
 }
 .resleased-year{
     margin-left: 8px;
+}
+
+@media screen and (max-width: 500px) {
+    .nav-bar{
+        display: inline-block;
+    }
+    .left{
+        float:none;
+        display: block;
+        margin-left: .1rem;
+    }
+    .left i{
+        margin: 0;
+    }
+    input{
+        display: none;
+    }
+    .search{
+        overflow: hidden;
+        padding: 0 10rem;
+        margin-top: -20px;
+    }
+    .fa-magnifying-glass{
+        border: none;
+        padding: 0;
+        margin-left: 45px;
+    }
+    .main{
+        margin: 40px 5px;
+        display: block;
+        width: 100%;
+    }
+    .video{
+        width: 100%;
+    }
+    .video-title{
+        text-align: center;
+        margin: 20px 0 10px;
+    }
+    .stats span{
+        display: none;
+    }
+    .tools a{
+        position: relative;
+        left: -50px;
+        margin: 15px
+    }
+    .head{
+        margin-top: 20px;
+    }
+    .head span{
+        margin: 5px;
+    }
+    .play-list{
+        margin-left: -10px;
+    }
+    
 }
